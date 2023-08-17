@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(howdy_planner)
+project(kabooom)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,7 +15,7 @@ add_subdirectory(lib)
 add_executable(${PROJECT_NAME} src/main.cpp)
 
 # Link the library to the main application
-target_link_libraries(${PROJECT_NAME} boilerplate_lib)
+target_link_libraries(${PROJECT_NAME} libpathfinder)
 
 # Disable Google Test's build scripts
 set(BUILD_GMOCK OFF CACHE BOOL "" FORCE)
