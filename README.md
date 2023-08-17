@@ -1,6 +1,11 @@
 # Kabooom!!
 
-![Screenshot from 2023-08-16 23-28-15](https://github.com/eulerecho/kabooom/assets/56460011/3c080f96-7945-4f3d-9703-bb088c3bc0fb)
+<p align="center">
+  <img src="https://github.com/eulerecho/kabooom/assets/56460011/bc306532-69b5-454e-b575-557a996fd637" width="400" style="margin-right:20px;" />
+  <img src="https://github.com/eulerecho/kabooom/assets/56460011/17ae8309-1bcb-4a40-9537-0c1020d850e3" width="400" /> 
+</p>
+
+
 
 What happens when a missile is crusing its way, and then out of nowhere the interceptor smashes it in mid air, you guessed it right! Kaboom!! 
 
