@@ -1,5 +1,7 @@
 # Kabooom!!
 
+![Screenshot from 2023-08-16 23-28-15](https://github.com/eulerecho/kabooom/assets/56460011/3c080f96-7945-4f3d-9703-bb088c3bc0fb)
+
 What happens when a missile is crusing its way, and then out of nowhere the interceptor smashes it in mid air, you guessed it right! Kaboom!! 
 
 This repo is a 2D discritezd toy **search-and-destroy problem**, where given an agent's trajectory, the goal of the ego agent is to intercept it at minimal time. 
@@ -16,7 +18,7 @@ Three directories live in the repo:
 
 - `kabooom_py`: Implementation of a state-based-search `bfs.py`, and another efficient hash-based Dijsktra and BFS `fox_travelers.py`. The main function generates random grids and the algorithm tries to find the solution
 - `kabooom_cpp`: CPP implementation of the state-based BFS, unit tests included.
-- `kabooom_py`: An initial attempt to formulate the minimum time problem as a optimal control problem using CaSaDi (WIP. solution incomplete, the solver segfaults!)
+- `kabooom_traj_opt`: An initial attempt to formulate the minimum time problem as a optimal control problem using CaSaDi (WIP. solution incomplete, the solver segfaults!)
 
 
 ## Code Execution
