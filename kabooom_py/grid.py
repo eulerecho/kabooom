@@ -70,7 +70,7 @@ class Map:
                     int((center[1]-r * np.sin(theta))/self.resolution)] for theta in angles]
         self.trajectory = (forward + forward[::-1])
         return self.trajectory
-
+    
     def simulate(self, path: list) -> None:
         if not path:
             print(f"No interception possible!")
